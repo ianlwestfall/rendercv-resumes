@@ -51,6 +51,14 @@ cv:
         summary:
         highlights:
           - Career break for emergency family caregiving (resolved); available for full-time IT support or operations roles
+      - company: Boston University
+        position: Graduate Student (Accelerated M.S. Program)
+        date:
+        start_date: 2023-01
+        end_date: 2024-08
+        location:
+        summary:
+        highlights:
       - company: Community Unit School District 300
         position: Technology Coordinator
         date:
@@ -124,7 +132,7 @@ design:
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
   typography:
-     line_spacing: 0.5em
+     line_spacing: 0.4em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
