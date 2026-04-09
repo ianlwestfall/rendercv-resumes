@@ -1,186 +1,108 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Software Development
+  name: Ian Westfall | Software Development
   headline:
-  location: San Francisco, CA
-  email: john.doe@email.com
+  location:
+  email: ianlwestfall@gmail.com
   photo:
-  phone:
-  website: https://rendercv.com/
+  phone: +1 224.558.1911
+  website: 
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: ianlwestfall
     - network: GitHub
-      username: rendercv
+      username: ianlwestfall
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - Each section title is arbitrary.
-      - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
+    Summary:
+      - bullet: MS in Software Development with Graduate Certificate in Web App Dev from Boston University (3.9 GPA)
+      - bullet: Interested in entry level Software Developer, Backend, and Software Quality Assurance (QA) roles
+      - bullet: K-12 and university IT support background with strong troubleshooting and documentation skills
     education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
-        summary:
-        highlights:
-          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
-          - "Advisor: Prof. Sanjeev Arora"
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Boğaziçi University
-        area: Computer Engineering
-        degree: BS
-        date:
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - "GPA: 3.97/4.00, Valedictorian"
-          - Fulbright Scholarship recipient for Graduate Studies
-    experience:
-      - company: Nexus AI
-        position: Co-Founder & CTO
-        date:
-        start_date: 2023-06
-        end_date: present
-        location: San Francisco, CA
-        summary:
-        highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-      - company: NVIDIA Research
-        position: Research Intern
-        date:
-        start_date: 2022-05
-        end_date: 2022-08
-        location: Santa Clara, CA
-        summary:
-        highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
-      - company: Google DeepMind
-        position: Research Intern
-        date:
-        start_date: 2021-05
-        end_date: 2021-08
-        location: London, UK
-        summary:
-        highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
-      - company: Apple ML Research
-        position: Research Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-08
-        location: Cupertino, CA
-        summary:
-        highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
-      - company: Microsoft Research
-        position: Research Intern
-        date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
-        highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
-    projects:
-      - name: "[FlashInfer](https://github.com/)"
+      - institution: Boston University
+        area: Software Development
+        degree: MS
         date:
         start_date: 2023-01
-        end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
+        end_date: 2024-08
+        location: Boston, MA
+        summary:
         highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: "[NeuralPrune](https://github.com/)"
-        date: "2021"
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
+          - "3.9 GPA, Graduate Certificate in Web Application Development"
+          - "Focus: OOP, design patterns, UML, DSA, systems analysis and requirements, RESTful services, databases"
+          - "Tech: Java, SQL, JDBC, Git, JavaScript, TypeScript, REST APIs, React, Angular, Node, PHP, MySQL, MongoDB, Ionic"
+      - institution: Eastern Illinois University
+        area: Computer & Information Technology
+        degree: BS
+        date:
+        start_date: 2018-08
+        end_date: 2020-12
+        location: Charleston, IL
+        summary:
         highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-    publications:
-      - title: "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models"
-        authors:
-          - "*John Doe*"
-          - Sarah Williams
-          - David Park
-        summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: NeurIPS 2023
-        date: 2023-07
-      - title: Neural Architecture Search via Differentiable Pruning
-        authors:
-          - James Liu
-          - "*John Doe*"
-        summary:
-        doi: 10.1234/neurips.2022.5678
-        url:
-        journal: NeurIPS 2022, Spotlight
-        date: 2022-12
-      - title: Multi-Agent Reinforcement Learning with Emergent Communication
-        authors:
-          - Maria Garcia
-          - "*John Doe*"
-          - Tom Anderson
-        summary:
-        doi: 10.1234/icml.2022.9012
-        url:
-        journal: ICML 2022
-        date: 2022-07
-      - title: On-Device Model Compression via Learned Quantization
-        authors:
-          - "*John Doe*"
-          - Kevin Wu
-        summary:
-        doi: 10.1234/iclr.2021.3456
-        url:
-        journal: ICLR 2021, Best Paper Award
-        date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
+          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
+          - "Focus: Programming fundamentals, databases, operating systems, networking, security basics"
+    Graduate Coursework Highlights:
+      - bullet: Built Node.js, Express REST APIs with MongoDB; implemented employee CRUD operations (Server-Side Web Dev)
+      - bullet: Developed PHP, MySQL shopping cart; orders with stock checks, admin CRUD operations (Server-Side Web Dev)
+      - bullet: Implemented Java OOP (interfaces, exceptions) with JDBC database connectivity (Info Structures with Java)
+      - bullet: Solved DSA problems in Java, expressing algorithms as pseudocode and analyzing time complexity (Big-O) (DSA)
+      - bullet: Applied design patterns and refactoring; created UML class, state, activity diagrams (Software Design & Patterns)
+      - bullet: Built UIs, components with React, TypeScript, Angular, and Ionic; Android build with Capacitor (Web App Dev, RIA)
     skills:
       - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: "From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)"
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+        details: Java, JavaScript, TypeScript, Python, SQL, PHP | **Frameworks:** React, Angular, Ionic, Capacitor
+      - label: Tech
+        details: Node.js, npm, REST APIs, MongoDB, MySQL | **Tools:** Git, GitHub, UML, Unit Testing
+    experience:
+      - company: Career Break
+        position: Caregiving
+        date:
+        start_date: 2025-01
+        end_date: 2026-03
+        location:
+        summary:
+        highlights:
+          - Career break for emergency family caregiving (resolved); available for full-time software developer roles
+      - company: Community Unit School District 300
+        position: Technology Coordinator
+        date:
+        start_date: 2021-06
+        end_date: 2022-10
+        location: Hampshire, IL
+        summary:
+        highlights:
+          - "Top Technology Coordinator; resolved 19% more incidents than #2 and 55% above team average"
+          - Imaged Windows PCs and worked on user accounts and Active Directory across 7+ schools
+          - Supported staff and students in Illinois' 5th-largest district via in-person, remote, and phone help
+      - company: State Farm
+        position: Infrastructure Analyst Intern
+        date:
+        start_date: 2020-05
+        end_date: 2020-07
+        location: Virtual
+        summary:
+        highlights:
+          - Supported internal cloud VMs using VMware ESXi, vSphere, and Linux server tools
+      - company: Elgin Community College
+        position: Computer Lab Assistant
+        date:
+        start_date: 2017-02
+        end_date: 2018-05
+        location: Elgin, IL
+        summary:
+        highlights:
+          - Provided computer and technical support to students in campus labs
+          - Assisted central IT staff with projects such as imaging, configuring, and deploying workstations
+      - company: Pauly Toyota
+        position: Assistant Service Manager
+        date:
+        start_date: 2014-08
+        end_date: 2017-02
+        location: Crystal Lake, IL
+        summary:
+        highlights:
+          - Managed a team of 5 technicians, prioritizing repairs to meet deadlines and control costs
 design:
   theme: engineeringresumes
   page:
@@ -200,8 +122,8 @@ design:
   #   links: rgb(0, 0, 0)
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
-  # typography:
-  #   line_spacing: 0.6em
+  typography:
+     line_spacing: 0.4em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
@@ -250,9 +172,9 @@ design:
   #   line_thickness: 0.5pt
   #   space_above: 0.5cm
   #   space_below: 0.3cm
-  # sections:
+  sections:
   #   allow_page_break: true
-  #   space_between_regular_entries: 0.42cm
+     space_between_regular_entries: 0.30cm
   #   space_between_text_based_entries: 0.15cm
   #   show_time_spans_in: []
   # entries:
