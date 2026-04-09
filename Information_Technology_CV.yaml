@@ -16,7 +16,7 @@ cv:
   sections:
     Summary:
       - bullet: IT Support Specialist with 3 years of educational IT support experience (K-12 and university)
-      - bullet: Experience with Windows/Linux, AD/GPO, DNS/DHCP/VPN, VMware/VMs, Docker, PowerShell, JavaScript, SQL
+      - bullet: Experience with Windows, Linux, AD, GPO, DNS, DHCP, VPN, VMware, VMs, Docker, PowerShell, JavaScript, SQL
       - bullet: Interested in IT Support, IT Specialist, Network Technician, and junior System Administrator roles
     education:
       - institution: Boston University
@@ -28,8 +28,8 @@ cv:
         location: Boston, MA
         summary:
         highlights:
-          - "3.9 GPA and a Graduate Certificate in Web Application Development"
-          - "Focus: Systems analysis and requirements, OOP, DSA, UML, design patterns, SQL/JDBC, Git"
+          - "3.9 GPA, Graduate Certificate in Web Application Development"
+          - "Focus: Systems analysis and requirements, OOP, DSA, UML, design patterns, SQL, JDBC, Git"
       - institution: Eastern Illinois University
         area: Computer & Information Technology
         degree: BS
@@ -40,7 +40,7 @@ cv:
         summary:
         highlights:
           - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
-          - "Focus: Networking, systems administration, Windows/Linux, cybersecurity fundamentals, and SQL/databases"
+          - "Focus: Networking, systems administration, Windows, Linux, cybersecurity fundamentals, SQL, databases"
     experience:
       - company: Career Break
         position: Caregiving
@@ -50,7 +50,7 @@ cv:
         location:
         summary:
         highlights:
-          - Career break for emergency family caregiving (resolved); available for full-time IT support/operations roles
+          - Career break for emergency family caregiving (resolved); available for full-time IT support or operations roles
       - company: Community Unit School District 300
         position: Technology Coordinator
         date:
@@ -93,11 +93,11 @@ cv:
           - Managed a team of 5 technicians, prioritizing repairs to meet deadlines and control costs
     skills:
       - label: IT Support
-        details: Technical support, troubleshooting, ticketing/incident management, documentation, end-user training
+        details: Technical support, troubleshooting, ticketing and incident management, documentation, end-user training
       - label: Systems & Networking
         details: Windows, Linux, Active Directory, Group Policy, DNS, DHCP, VPN, SSH
       - label: Virtualization & Automation
-        details: VMware (ESXi/vSphere/vCenter), VMs, Docker, PowerShell, Bash, SQL
+        details: VMware (ESXi, vSphere, vCenter), VMs, Docker, PowerShell, Bash, SQL, Python
     projects:
       - label: "Homelab"
         details: 24/7 Linux server, 23+ Dockers, VPN, SMB shares, cache to array storage, dual parity, UPS backup
