@@ -1,6 +1,6 @@
 # RenderCV Resumes
 
-Resumes written in YAML and rendered with [RenderCV](https://rendercv.com).
+Resumes written in YAML and rendered with [RenderCV](https://github.com/rendercv/rendercv).
 
 ## Overview
 
