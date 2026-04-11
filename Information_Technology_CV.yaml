@@ -132,7 +132,7 @@ design:
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
   typography:
-     line_spacing: 0.4em
+    line_spacing: 0.4em
   #   alignment: justified
   #   date_and_location_column_alignment: right
   #   font_family:
@@ -182,8 +182,8 @@ design:
   #   space_above: 0.5cm
   #   space_below: 0.3cm
   sections:
-  #   allow_page_break: true
-     space_between_regular_entries: 0.36cm
+    #   allow_page_break: true
+    space_between_regular_entries: 0.36cm
   #   space_between_text_based_entries: 0.15cm
   #   show_time_spans_in: []
   # entries:
