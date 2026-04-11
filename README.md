@@ -19,3 +19,4 @@ Render a resume with:
 
 ```bash
 rendercv render <resume-file-name>_CV.yaml
+```

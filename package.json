@@ -1,0 +1,26 @@
+{
+  "name": "rendercv-resumes",
+  "version": "1.0.0",
+  "description": "Resumes written in YAML and rendered with [RenderCV](https://github.com/rendercv/rendercv).",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianlwestfall/rendercv-resumes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ianlwestfall/rendercv-resumes/issues"
+  },
+  "homepage": "https://github.com/ianlwestfall/rendercv-resumes#readme",
+  "devDependencies": {
+    "prettier": "^3.8.2"
+  }
+}
