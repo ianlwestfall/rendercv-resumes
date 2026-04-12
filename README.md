@@ -30,7 +30,7 @@ Render a resume directly with:
 rendercv render <resume-file-name>_CV.yaml
 ```
 
-Or render a resume with sensitive information with the script:
+Or render all resumes at once with sensitive information with the script:
 
 ```bash
 ./render.local.sh
