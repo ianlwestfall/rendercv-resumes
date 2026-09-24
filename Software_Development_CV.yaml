@@ -5,12 +5,10 @@ cv:
   location:
   email: ianlwestfall@gmail.com
   photo:
-  phone: 
+  phone:
   website:
   social_networks:
     - network: LinkedIn
-      username: ianlwestfall
-    - network: GitHub
       username: ianlwestfall
   custom_connections:
   sections:
@@ -59,7 +57,7 @@ cv:
         position: Caregiving
         date:
         start_date: 2025-01
-        end_date: 2026-03
+        end_date: 2026-08
         location:
         summary:
         highlights:
