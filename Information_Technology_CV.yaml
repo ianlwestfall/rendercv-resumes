@@ -2,7 +2,7 @@
 cv:
   name: Ian Westfall | Information Technology
   headline:
-  location:
+  location: Algonquin, IL
   email: ianlwestfall@gmail.com
   photo:
   phone:
@@ -13,100 +13,87 @@ cv:
   custom_connections:
   sections:
     Summary:
-      - bullet: IT Support Specialist with 3 years of educational IT support experience (K-12 and university)
-      - bullet: Experience with Windows, Linux, AD, GPO, DNS, DHCP, VPN, VMware, VMs, Docker, PowerShell, JavaScript, SQL
-      - bullet: Interested in IT Support, IT Specialist, Network Technician, and junior System Administrator roles
+      - bullet: IT support specialist with 3 years of experience across K-12, higher education, and enterprise IT environments
+      - bullet: "Ranked #1 in incident resolution at District 300; skilled in Windows, hardware, and network troubleshooting"
+    experience:
+      - company: Career Break
+        position: Caregiving
+        start_date: 2025-01
+        end_date: 2026-08
+        location:
+        highlights:
+          - Took a career break for family caregiving responsibilities, which have since concluded
+      - company: Boston University
+        position: Graduate Student (Accelerated M.S. Program)
+        start_date: 2023-01
+        end_date: 2024-08
+        location:
+        highlights:
+      - company: Community Unit School District 300
+        position: Technology Coordinator
+        start_date: 2021-06
+        end_date: 2022-10
+        location: Hampshire, IL
+        highlights:
+          - "Ranked #1 in resolved incidents: 19% more than the next coordinator and 55% above team average"
+          - Troubleshot PCs, printers, classroom tech, software, and network issues across 7+ schools on-site and remotely
+          - Imaged and prepared staff laptops for a district-wide summer deployment involving thousands of devices
+          - Managed incidents in Ivanti and used Cisco Meraki for Wi-Fi issues; traced Ethernet and IP phone faults
+      - company: State Farm
+        position: Infrastructure Analyst Intern
+        start_date: 2020-05
+        end_date: 2020-07
+        location: Remote
+        highlights:
+          - Supported internal cloud VMs with VMware ESXi, vSphere, Linux, and Windows Server tools
+          - Provisioned development VMs, reviewed access permissions, and clarified policies in team documentation
+      - company: Elgin Community College
+        position: Computer Lab Assistant
+        start_date: 2017-02
+        end_date: 2018-05
+        location: Elgin, IL
+        highlights:
+          - Troubleshot student PCs, replaced hardware, and helped IT staff image, configure, and deploy workstations
+      - company: Pauly Toyota
+        position: Assistant Service Manager
+        start_date: 2014-08
+        end_date: 2017-02
+        location: Crystal Lake, IL
+        highlights:
+          - Supervised five technicians, prioritized repairs, and explained technical issues and timelines to customers
+    skills:
+      - label: IT Support
+        details: Windows, Ivanti, imaging, troubleshooting, ticketing, hardware, printers
+      - label: Networking
+        details: Cisco Meraki, TCP/IP, Ethernet, Wi-Fi, DNS, DHCP, VPN/WireGuard
+      - label: Infrastructure
+        details: Linux, Windows Server, VMware ESXi/vSphere, Proxmox VE, Unraid, Docker, virtual machines
+      - label: Tools & Storage
+        details: PowerShell, Bash, Git, SMB shares, backup and recovery
+    projects:
+      - name: Home Server & Infrastructure Lab
+        start_date: "2020"
+        end_date: present
+        highlights:
+          - Designed and maintain a home server; upgraded hardware and moved from Proxmox VE to VMware ESXi to Unraid
+          - Run 24 Docker containers, Windows Server VMs, 100 TB storage, 10 SMB shares, WireGuard VPN, and backups
     education:
       - institution: Boston University
         area: Software Development
         degree: MS
-        date:
         start_date: 2023-01
         end_date: 2024-08
         location: Boston, MA
-        summary:
         highlights:
-          - "3.9 GPA, Graduate Certificate in Web Application Development"
-          - "Focus: Systems analysis and requirements, OOP, DSA, UML, design patterns, SQL, JDBC, Git"
+          - 3.85 GPA; Graduate Certificate in Web Application Development
       - institution: Eastern Illinois University
         area: Computer & Information Technology
         degree: BS
-        date:
         start_date: 2018-08
         end_date: 2020-12
         location: Charleston, IL
-        summary:
         highlights:
-          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
-          - "Focus: Networking, systems administration, Windows, Linux, cybersecurity fundamentals, SQL, databases"
-    experience:
-      - company: Career Break
-        position: Caregiving
-        date:
-        start_date: 2025-01
-        end_date: 2026-08
-        location:
-        summary:
-        highlights:
-          - Career break for emergency family caregiving (resolved); available for full-time IT support or operations roles
-      - company: Boston University
-        position: Graduate Student (Accelerated M.S. Program)
-        date:
-        start_date: 2023-01
-        end_date: 2024-08
-        location:
-        summary:
-        highlights:
-      - company: Community Unit School District 300
-        position: Technology Coordinator
-        date:
-        start_date: 2021-06
-        end_date: 2022-10
-        location: Hampshire, IL
-        summary:
-        highlights:
-          - "Top Technology Coordinator; resolved 19% more incidents than #2 and 55% above team average"
-          - Maintained Windows workstations and worked on user accounts and Active Directory across 7+ schools
-          - Supported staff and students in Illinois' 5th-largest district via in-person, remote, and phone help
-      - company: State Farm
-        position: Infrastructure Analyst Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-07
-        location: Virtual
-        summary:
-        highlights:
-          - Supported internal cloud VMs using VMware ESXi, vSphere, and Linux server tools
-          - Worked remotely during COVID-19 in a distributed infrastructure team
-      - company: Elgin Community College
-        position: Computer Lab Assistant
-        date:
-        start_date: 2017-02
-        end_date: 2018-05
-        location: Elgin, IL
-        summary:
-        highlights:
-          - Provided computer and technical support to students in campus labs
-          - Assisted central IT staff with projects such as imaging, configuring, and deploying workstations
-      - company: Pauly Toyota
-        position: Assistant Service Manager
-        date:
-        start_date: 2014-08
-        end_date: 2017-02
-        location: Crystal Lake, IL
-        summary:
-        highlights:
-          - Managed a team of 5 technicians, prioritizing repairs to meet deadlines and control costs
-    skills:
-      - label: IT Support
-        details: Technical support, troubleshooting, ticketing and incident management, documentation, end-user training
-      - label: Systems & Networking
-        details: Windows, Linux, Active Directory, Group Policy, DNS, DHCP, VPN, SSH
-      - label: Virtualization & Automation
-        details: VMware (ESXi, vSphere, vCenter), VMs, Docker, PowerShell, Bash, SQL, Python
-    projects:
-      - label: "Homelab"
-        details: 24/7 Linux server, 23+ Dockers, VPN, SMB shares, cache to array storage, dual parity, UPS backup
+          - 4.00 GPA; Summa Cum Laude; Writes with Distinction Award
     certifications:
       - label: CompTIA IT Fundamentals (ITF+)
         details: Sep 2021 | **CompTIA A+:** Jan 2022 - Jan 2025
