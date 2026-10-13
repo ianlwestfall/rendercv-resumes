@@ -8,6 +8,13 @@ This repository contains resume variants for different roles and applications. E
 
 Sensitive personal information can be kept out of the public repository and supplied locally at render time.
 
+## Formatting Guidelines
+
+- **Page limit:** All resumes should fit on one page.
+- **Lines limit:** A single page accommodates approximately 37 lines of text, including headings.
+- **Line length:** Approximately 110 characters fit per line before wrapping.
+- **Bullet points:** Bullet points should be a single-line to conserve space.
+
 ## Files
 
 - `Software_Development_CV.yaml` – software development focused resume
