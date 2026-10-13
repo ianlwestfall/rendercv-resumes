@@ -2,7 +2,7 @@
 cv:
   name: Ian Westfall | Software Development
   headline:
-  location:
+  location: Algonquin, IL
   email: ianlwestfall@gmail.com
   photo:
   phone:
@@ -10,105 +10,87 @@ cv:
   social_networks:
     - network: LinkedIn
       username: ianlwestfall
+    # - network: GitHub
+    #   username: YOUR_GITHUB_USERNAME
   custom_connections:
   sections:
     Summary:
-      - bullet: MS in Software Development with Graduate Certificate in Web App Dev from Boston University (3.9 GPA)
-      - bullet: Interested in entry level Software Developer, Backend, and Software Quality Assurance (QA) roles
-      - bullet: K-12 and university IT support background with strong troubleshooting and documentation skills
+      - bullet: M.S. in Software Development; built Java applications, REST APIs, and database-backed web apps
+      - bullet: 3 years of IT experience in troubleshooting, documentation, and enterprise systems support
+    skills:
+      - label: Code
+        details: Java, JavaScript, TypeScript, SQL, PHP, HTML, CSS | **Web:** Node.js, Express.js, React, Angular, REST APIs, JDBC
+      - label: Tools
+        details: Git, GitHub, Docker, UML, OOP, design patterns, unit testing, JUnit | **Databases:** MySQL, MongoDB, MariaDB
+    Graduate Coursework Highlights:
+      - bullet: Built REST APIs with Node.js, Express, and MongoDB for employee CRUD operations (Server-Side Web Dev)
+      - bullet: Developed a PHP/MySQL shopping cart with stock checks and administrative CRUD features (Server-Side Web Dev)
+      - bullet: Implemented Java OOP with interfaces, exceptions, and JDBC database connectivity (Info Structures with Java)
+      - bullet: Solved data structures and algorithms problems in Java; analyzed time complexity (DSA)
+      - bullet: Applied design patterns and refactoring; created UML class, state, and activity diagrams (Software Design)
+      - bullet: Built UIs with React, TypeScript, Angular, and Ionic; created an Android build with Capacitor (Web App Dev)
+      - bullet: Practiced Java generics, lambdas, streams, concurrency, and JUnit testing (Advanced Programming Techniques)
+    experience:
+      - company: Career Break
+        position: Caregiving
+        start_date: 2025-01
+        end_date: 2026-08
+        highlights:
+          - Took a career break for family caregiving responsibilities, which have since concluded
+      - company: Boston University
+        position: Graduate Student (Accelerated M.S. Program)
+        start_date: 2023-01
+        end_date: 2024-08
+        highlights:
+      - company: Community Unit School District 300
+        position: Technology Coordinator
+        start_date: 2021-06
+        end_date: 2022-10
+        location: Hampshire, IL
+        highlights:
+          - "Ranked #1 in resolved incidents: 19% ahead of the next coordinator and 55% above team average"
+          - Diagnosed and documented software, hardware, and network issues across 7+ schools
+      - company: State Farm
+        position: Infrastructure Analyst Intern
+        start_date: 2020-05
+        end_date: 2020-07
+        location: Remote
+        highlights:
+          - Provisioned VMware VMs for development teams; documented access controls and provisioning requirements
+      - company: Elgin Community College
+        position: Computer Lab Assistant
+        start_date: 2017-02
+        end_date: 2018-05
+        location: Elgin, IL
+        highlights:
+          - Supported students and helped IT staff troubleshoot, configure, image, and deploy workstations
+      - company: Pauly Toyota
+        position: Assistant Service Manager
+        start_date: 2014-08
+        end_date: 2017-02
+        location: Crystal Lake, IL
+        highlights:
+          - Supervised five technicians, prioritized repairs, and explained technical issues to customers
+    Projects:
+      - bullet: Built and maintain a home lab server hosting 24 Docker containers, MariaDB, and Windows Server VMs
+      - bullet: Deploy applications using Docker Compose; troubleshoot startup failures through logs and configuration changes
     education:
       - institution: Boston University
         area: Software Development
         degree: MS
-        date:
         start_date: 2023-01
         end_date: 2024-08
         location: Boston, MA
-        summary:
         highlights:
-          - "3.9 GPA, Graduate Certificate in Web Application Development"
-          - "Focus: OOP, design patterns, UML, DSA, systems analysis and requirements, RESTful services, databases"
-          - "Tech: Java, SQL, JDBC, Git, JavaScript, TypeScript, REST APIs, React, Angular, Node, PHP, MySQL, MongoDB, Ionic"
+          - 3.85 GPA; Graduate Certificate in Web Application Development
       - institution: Eastern Illinois University
         area: Computer & Information Technology
         degree: BS
-        date:
         start_date: 2018-08
         end_date: 2020-12
         location: Charleston, IL
-        summary:
         highlights:
-          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
-          - "Focus: Programming fundamentals, databases, operating systems, networking, security basics"
-    Graduate Coursework Highlights:
-      - bullet: Built Node.js, Express REST APIs with MongoDB; implemented employee CRUD operations (Server-Side Web Dev)
-      - bullet: Developed PHP, MySQL shopping cart; orders with stock checks, admin CRUD operations (Server-Side Web Dev)
-      - bullet: Implemented Java OOP (interfaces, exceptions) with JDBC database connectivity (Info Structures with Java)
-      - bullet: Solved DSA problems in Java, expressing algorithms as pseudocode and analyzing time complexity (Big-O) (DSA)
-      - bullet: Applied design patterns and refactoring; created UML class, state, activity diagrams (Software Design & Patterns)
-      - bullet: Built UIs, components with React, TypeScript, Angular, and Ionic; Android build with Capacitor (Web App Dev, RIA)
-    skills:
-      - label: Languages
-        details: Java, JavaScript, TypeScript, Python, SQL, PHP | **Frameworks:** React, Angular, Ionic, Capacitor
-      - label: Tech
-        details: Node.js, npm, REST APIs, MongoDB, MySQL | **Tools:** Git, GitHub, UML, Unit Testing
-    experience:
-      - company: Career Break
-        position: Caregiving
-        date:
-        start_date: 2025-01
-        end_date: 2026-08
-        location:
-        summary:
-        highlights:
-          - Career break for emergency family caregiving (resolved); available for full-time software developer roles
-      - company: Boston University
-        position: Graduate Student (Accelerated M.S. Program)
-        date:
-        start_date: 2023-01
-        end_date: 2024-08
-        location:
-        summary:
-        highlights:
-      - company: Community Unit School District 300
-        position: Technology Coordinator
-        date:
-        start_date: 2021-06
-        end_date: 2022-10
-        location: Hampshire, IL
-        summary:
-        highlights:
-          - "Top Technology Coordinator; resolved 19% more incidents than #2 and 55% above team average"
-          - Maintained Windows workstations and worked on user accounts and Active Directory across 7+ schools
-          - Supported staff and students in Illinois' 5th-largest district via in-person, remote, and phone help
-      - company: State Farm
-        position: Infrastructure Analyst Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-07
-        location: Virtual
-        summary:
-        highlights:
-          - Supported internal cloud VMs using VMware ESXi, vSphere, and Linux server tools
-      - company: Elgin Community College
-        position: Computer Lab Assistant
-        date:
-        start_date: 2017-02
-        end_date: 2018-05
-        location: Elgin, IL
-        summary:
-        highlights:
-          - Provided computer and technical support to students in campus labs
-          - Assisted central IT staff with projects such as imaging, configuring, and deploying workstations
-      - company: Pauly Toyota
-        position: Assistant Service Manager
-        date:
-        start_date: 2014-08
-        end_date: 2017-02
-        location: Crystal Lake, IL
-        summary:
-        highlights:
-          - Managed a team of 5 technicians, prioritizing repairs to meet deadlines and control costs
+          - 4.00 GPA; Summa Cum Laude; Writes with Distinction Award
 design:
   theme: engineeringresumes
   page:
