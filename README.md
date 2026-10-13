@@ -33,5 +33,5 @@ rendercv render <resume-file-name>_CV.yaml
 Or render all resumes at once with sensitive information with the script:
 
 ```bash
-./render.local.sh
+./render-local.sh
 ```
