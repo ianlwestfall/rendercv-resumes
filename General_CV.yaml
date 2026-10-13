@@ -2,7 +2,7 @@
 cv:
   name: Ian Westfall
   headline:
-  location:
+  location: Algonquin, IL
   email: ianlwestfall@gmail.com
   photo:
   phone:
@@ -13,42 +13,9 @@ cv:
   custom_connections:
   sections:
     Summary:
-      - bullet: Dependable, highly organized professional with experience in educational support, operations, and customer service
-      - bullet: Background in team coordination, troubleshooting, documentation, and daily support across multiple environments
-      - bullet: Proven track record of resolving issues efficiently and helping staff, students, and teams stay productive
-      - bullet: Strong communication, attention to detail, leadership experience, and a consistent record of academic achievement
-    education:
-      - institution: Boston University
-        area: Software Development
-        degree: MS
-        date:
-        start_date: 2023-01
-        end_date: 2024-08
-        location: Boston, MA
-        summary:
-        highlights:
-          - "3.9 GPA, Graduate Certificate in Web Application Development"
-          - "Strengthened skills in project work, structured analysis, collaboration, and clear communication"
-      - institution: Eastern Illinois University
-        area: Computer & Information Technology
-        degree: BS
-        date:
-        start_date: 2018-08
-        end_date: 2020-12
-        location: Charleston, IL
-        summary:
-        highlights:
-          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
-          - Built a strong foundation in research, organization, critical thinking, and follow-through
-    skills:
-      - label: Operations & Coordination
-        details: Operations support, administrative support, workflow coordination, issue resolution
-      - label: Communication & Service
-        details: Customer service, end-user support, written communication, verbal communication
-      - label: Organization & Execution
-        details: Documentation, prioritization, time management, process support, attention to detail
-      - label: Team Support
-        details: Team coordination, training, problem solving, adaptability, leadership
+      - bullet: Operations and customer service professional with experience supervising teams and coordinating workflows
+      - bullet: Skilled in customer communication, issue resolution, documentation, prioritization, and process improvement
+      - bullet: Recognized for high productivity, dependable service, clear communication, and strong organizational skills
     experience:
       - company: Career Break
         position: Caregiving
@@ -58,7 +25,7 @@ cv:
         location:
         summary:
         highlights:
-          - Career break for emergency family caregiving (resolved); available for full-time roles
+          - Took a career break for family caregiving responsibilities, which have since concluded
       - company: Boston University
         position: Graduate Student (Accelerated M.S. Program)
         date:
@@ -75,19 +42,22 @@ cv:
         location: Hampshire, IL
         summary:
         highlights:
-          - "Top Technology Coordinator; resolved 19% more incidents than #2 and 55% above team average"
-          - Supported staff and students across 7+ schools in Illinois' 5th-largest district via in-person, remote, and phone help
-          - Prioritized requests, solved day-to-day problems efficiently, and helped keep school operations running smoothly
+          - Ranked first in resolved incidents, 19% ahead of second place and 55% above team average
+          - Supported staff and students across 7+ schools through in-person, remote, and phone assistance
+          - Independently prioritized requests, documented resolutions, and minimized disruption to school operations
+          - Praised by district leaders for clearly explaining IT issues while making teachers and staff feel respected
+          - Imaged and prepared staff laptops for a district-wide summer deployment involving thousands of devices
+          - Took on Chromebook repairs and warranty claims during busy periods to support another district team
       - company: State Farm
         position: Infrastructure Analyst Intern
         date:
         start_date: 2020-05
         end_date: 2020-07
-        location: Virtual
+        location: Remote
         summary:
         highlights:
-          - Supported internal teams in a remote professional environment during the COVID-19 period
-          - Assisted with operational and system-related tasks requiring accuracy, follow-through, and attention to detail
+          - Supported enterprise virtual machines, documented server configurations and access controls for a remote team
+          - Clarified access requirements and updated team documentation to guide future virtual machine requests
       - company: Elgin Community College
         position: Computer Lab Assistant
         date:
@@ -96,8 +66,7 @@ cv:
         location: Elgin, IL
         summary:
         highlights:
-          - Provided computer and technical support for students in campus labs
-          - Assisted central IT staff with workstation setup, organization, and deployment projects
+          - Assisted students with technical issues and helped IT staff set up, image, and deploy workstations
       - company: Pauly Toyota
         position: Assistant Service Manager
         date:
@@ -106,9 +75,41 @@ cv:
         location: Crystal Lake, IL
         summary:
         highlights:
-          - Managed a team of 5 technicians in a fast-paced service environment
-          - Prioritized work to meet deadlines, maintain productivity, and control costs
-          - Coordinated with staff and customers to keep service operations organized and moving efficiently
+          - Supervised five technicians, coordinating repairs to meet deadlines, maintain productivity, and control costs
+          - Tracked repair orders, billing, and warranty claims; communicated recommendations and timelines to customers
+          - Created a quick-reference guide adopted by all service writers, simplifying access to contacts and procedures
+    skills:
+      - label: Operations & Administration
+        details: Work order processing, recordkeeping, scheduling, warranty claims
+      - label: Customer Service
+        details: Customer communication, issue resolution, phone support, explaining technical information
+      - label: Organization & Leadership
+        details: Team supervision, prioritization, documentation, process improvement
+      - label: Computer & Office Skills
+        details: Microsoft Word, Excel, PowerPoint, Windows, technical troubleshooting
+      - label: Sales & Retail Operations
+        details: Sales, inventory management, pricing, stock organization, store operations
+    education:
+      - institution: Boston University
+        area: Software Development
+        degree: MS
+        date:
+        start_date: 2023-01
+        end_date: 2024-08
+        location: Boston, MA
+        summary:
+        highlights:
+          - "3.85 GPA, Graduate Certificate in Web Application Development"
+      - institution: Eastern Illinois University
+        area: Computer & Information Technology
+        degree: BS
+        date:
+        start_date: 2018-08
+        end_date: 2020-12
+        location: Charleston, IL
+        summary:
+        highlights:
+          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
 design:
   theme: engineeringresumes
   page:
