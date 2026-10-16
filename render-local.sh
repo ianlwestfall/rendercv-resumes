@@ -14,3 +14,6 @@ rendercv render General_CV.yaml --cv.phone "$CV_PHONE"
 rendercv render Information_Technology_CV.yaml --cv.phone "$CV_PHONE"
 rendercv render Software_Development_CV.yaml --cv.phone "$CV_PHONE"
 rendercv render Cover_Letter.yaml --cv.phone "$CV_PHONE"
+rendercv render Letter_of_Recommendation_1.yaml
+rendercv render Letter_of_Recommendation_2.yaml
+rendercv render Letter_of_Recommendation_3.yaml

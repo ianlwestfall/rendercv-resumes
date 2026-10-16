@@ -282,10 +282,10 @@ settings:
     markdown_path: OUTPUT_FOLDER/General_CV.md
     html_path: OUTPUT_FOLDER/General_CV.html
     png_path: OUTPUT_FOLDER/General_CV.png
-    dont_generate_markdown: false
-    dont_generate_html: false
+    dont_generate_markdown: true
+    dont_generate_html: true
     dont_generate_typst: false
     dont_generate_pdf: false
-    dont_generate_png: false
+    dont_generate_png: true
   bold_keywords: []
   pdf_title: NAME - CV
