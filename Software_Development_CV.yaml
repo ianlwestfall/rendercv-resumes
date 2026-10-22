@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
-  name: Ian Westfall | Software Development
-  headline:
+  name: Ian Westfall
+  headline: Software Developer | Java • JavaScript • SQL • REST APIs • Docker
   location: Algonquin, IL
   email: ianlwestfall@gmail.com
   photo:
@@ -80,17 +80,15 @@ cv:
         degree: MS
         start_date: 2023-01
         end_date: 2024-08
-        location: Boston, MA
+        location: 3.85 GPA; Web App Dev Grad Cert
         highlights:
-          - 3.85 GPA; Graduate Certificate in Web Application Development
       - institution: Eastern Illinois University
         area: Computer & Information Technology
         degree: BS
         start_date: 2018-08
         end_date: 2020-12
-        location: Charleston, IL
+        location: 4.0 GPA
         highlights:
-          - 4.00 GPA; Summa Cum Laude; Writes with Distinction Award
 design:
   theme: engineeringresumes
   page:

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Ian Westfall
-  headline:
+  headline: Operations & Customer Service Professional | Team Leadership
   location: Algonquin, IL
   email: ianlwestfall@gmail.com
   photo:
@@ -93,23 +93,17 @@ cv:
       - institution: Boston University
         area: Software Development
         degree: MS
-        date:
         start_date: 2023-01
         end_date: 2024-08
-        location: Boston, MA
-        summary:
+        location: 3.85 GPA; Web App Dev Grad Cert
         highlights:
-          - "3.85 GPA, Graduate Certificate in Web Application Development"
       - institution: Eastern Illinois University
         area: Computer & Information Technology
         degree: BS
-        date:
         start_date: 2018-08
         end_date: 2020-12
-        location: Charleston, IL
-        summary:
+        location: 4.0 GPA
         highlights:
-          - "4.0 GPA, Summa Cum Laude, Writes with Distinction Award, Grote Stahl Scholarship"
 design:
   theme: engineeringresumes
   page:
